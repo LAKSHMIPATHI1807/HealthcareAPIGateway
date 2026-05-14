@@ -55,11 +55,11 @@
       "UpstreamPathTemplate": "/HMS/appointments",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/Appointment",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5202
+          "Host": "appointmentapi-dcazcxgcfdhbb9hu.centralus-01.azurewebsites.net"
+          //"Port": 5202
         }
       ]
     },
@@ -67,11 +67,11 @@
       "UpstreamPathTemplate": "/HMS/appointments/{routes}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/Appointment/{routes}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5202
+          "Host": "appointmentapi-dcazcxgcfdhbb9hu.centralus-01.azurewebsites.net"
+          //"Port": 5202
         }
       ]
     },
