@@ -1256,11 +1256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\HealthcareAPIGateway\\HealthcareAPIGateway.csproj",
+      "projectUniqueName": "C:\\Users\\sampu\\OneDrive\\Desktop\\HealthcareAPIGateway\\HealthcareAPIGateway.csproj",
       "projectName": "HealthcareAPIGateway",
-      "projectPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\HealthcareAPIGateway\\HealthcareAPIGateway.csproj",
+      "projectPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\HealthcareAPIGateway\\HealthcareAPIGateway.csproj",
       "packagesPath": "C:\\Users\\sampu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\HealthcareAPIGateway\\obj\\",
+      "outputPath": "C:\\Users\\sampu\\OneDrive\\Desktop\\HealthcareAPIGateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

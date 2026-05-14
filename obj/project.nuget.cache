@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xGsuspyGBLc=",
+  "dgSpecHash": "+maVM1WoShs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sampu\\OneDrive\\Desktop\\.Net_training\\Mini-III\\HealthcareManagementSystem\\HealthcareAPIGateway\\HealthcareAPIGateway.csproj",
+  "projectFilePath": "C:\\Users\\sampu\\OneDrive\\Desktop\\HealthcareAPIGateway\\HealthcareAPIGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sampu\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\sampu\\.nuget\\packages\\ipaddressrange\\6.3.0\\ipaddressrange.6.3.0.nupkg.sha512",
