@@ -1,17 +1,17 @@
 {
-  "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5063"
-  },
+  //"GlobalConfiguration": {
+  //  "BaseUrl": "http://localhost:5063"
+  //},
   "Routes": [
     {
       "UpstreamPathTemplate": "/HMS/patients",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/Patient",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5062
+          "Host": "patientapi-fbdpg4gnc9fdcad5.centralus-01.azurewebsites.net"
+          //"Port": 5062
         }
       ]
     },
@@ -19,11 +19,11 @@
       "UpstreamPathTemplate": "/HMS/patients/{routes}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/Patient/{routes}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5062
+          "Host": "patientapi-fbdpg4gnc9fdcad5.centralus-01.azurewebsites.net"
+          //"Port": 5062
         }
       ]
     },
@@ -31,11 +31,11 @@
       "UpstreamPathTemplate": "/HMS/doctors",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/Doctor",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5259
+          "Host": "doctorapi-bmazacbtbyh3fqaq.centralus-01.azurewebsites.net"
+          //"Port": 5259
         }
       ]
     },
@@ -43,11 +43,11 @@
       "UpstreamPathTemplate": "/HMS/doctors/{routes}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/Doctor/{routes}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5259
+          "Host": "doctorapi-bmazacbtbyh3fqaq.centralus-01.azurewebsites.net"
+          //"Port": 5259
         }
       ]
     },
@@ -79,11 +79,11 @@
       "UpstreamPathTemplate": "/HMS/users",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/User",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5297
+          "Host": "userserviceapi-hnb7gmfcebejasgu.centralus-01.azurewebsites.net"
+          //"Port": 5297
         }
       ]
     },
@@ -91,11 +91,11 @@
       "UpstreamPathTemplate": "/HMS/users/{routes}",
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       "DownstreamPathTemplate": "/api/User/{routes}",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5297
+          "Host": "userserviceapi-hnb7gmfcebejasgu.centralus-01.azurewebsites.net"
+          //"Port": 5297
         }
       ]
     }

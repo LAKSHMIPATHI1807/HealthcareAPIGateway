@@ -63,6 +63,11 @@ namespace HealthcareAPIGateway
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            else
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
 
             app.UseCors("AllowAll");
 
